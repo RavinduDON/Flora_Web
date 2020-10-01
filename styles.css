@@ -1,0 +1,195 @@
+body {
+  margin:0;
+  background-color: lightgray;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#ffd46d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #935D00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+
+  background-color: #674100;
+
+}
+
+.logo{
+    float: left;
+}
+.mainsec{
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: white;
+    margin-top: 50px;
+    height: 1400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.title{
+    font-family: "Lucida Calligraphy";
+    color: #935D00;
+}
+.hed{
+    font-size: 30px;
+}
+.banner{
+    height: 150px;
+    
+}
+.promo{
+    
+    font-weight: bold;
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 400px;
+    margin-top: -200px;
+    font-style: italic;
+    background-color: rgba(236,236,236,0.7);
+    position: absolute;
+}
+.info{
+    width: 10%;
+    margin-left: 800px;
+    margin-top: -50px;
+    font-style: italic;
+    background-color: rgba(236,236,236,0.9);
+    position: absolute;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    width: 25%;
+    padding: 8px;
+    margin-left: 40px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 13px;
+  }
+.fltit{
+    font-family: "Lucida Calligraphy";
+    color: #935D00;
+}
+.pricetag{
+    white-space:nowrap;
+    position:relative;
+    margin:0 5px 0 10px;
+    displaY:inline-block;
+    height:25px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 25px 0 15px;
+    background:#728300;
+    border: 0 solid #C7D2D4;
+    border-top-width:1px;
+    border-bottom-width:1px;
+    color: white;
+    line-height:23px;
+}
+.pricetag:after{
+    position:absolute;
+    right:0;
+    margin:1px 7px;
+    font-weight:bold;
+    font-size:19px;
+    content:"\00D7";
+}
+.pricetag:before{
+    position:absolute;
+    content:"\25CF";
+    color:white;
+    text-shadow: 0 0 1px #333;
+    font-size:11px;
+    line-height:0px;
+    text-indent:12px;
+    left:-15px;
+    width: 1px;
+    height:0px;
+    border-right:14px solid #728300;
+    border-top:  13px solid transparent;
+    border-bottom:  13px solid transparent;
+}
+
+.lsec{
+  float: left;
+  width: 40%;
+}
+.rsec{
+  float: right;
+  width: 60%;
+}
+.smtit{
+  font-family: "Lucida Calligraphy";
+}
+.smpt{
+  font-family: "Lucida Calligraphy";
+  font-size: 18px;
+}
+.delra{
+  border-radius: 3px;
+  border-style: double;
+  border-color: brown;
+  width: 70%;
+  
+}
+.delra:hover{
+  background-color: lightgray;
+  font-weight: bold;
+}
+.fas{
+  float: right;
+  margin-top: -20px;
+  position: relative;
+  /* display: inline-block; */
+  border-bottom: 1px dotted black;
+}
+
+
+.fas.infotxt{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.fas:hover .infotxt{
+  visibility: visible;
+}
+.linr{
+  float: left;
+  width: 40%;
+  text-align: right;
+}
+.rinr{
+  float: right;
+  width: 60%;
+}
